@@ -130,6 +130,7 @@ body{
 .itemBox{
 	width:100%;
 	height:auto;
+	margin-bottom:.92rem;
 	overflow:hidden;
 }
 .big{
