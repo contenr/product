@@ -7,6 +7,9 @@ html,body{
 body{
    font-size: 16px;
 }
+a{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
 .display{
 	width:100%;
 	height:100%;
@@ -130,7 +133,7 @@ body{
 .itemBox{
 	width:100%;
 	height:auto;
-	margin-bottom:.92rem;
+	margin-bottom:.62rem;
 	overflow:hidden;
 }
 .big{
@@ -167,6 +170,11 @@ body{
 	font-size:14px;
 	color:#717171;
 	padding:0 5px;
+	text-overflow:ellipsis;
+	-webkit-line-clamp:3;
+	overflow:hidden;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
 }
 .shareapi{
 	width:100%;

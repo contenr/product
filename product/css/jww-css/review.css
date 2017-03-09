@@ -3,6 +3,9 @@ body{
 	font-size:16px;
 	font-family:Helvetica,sans-serif;
 }
+a{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+}
 /*头部开始---------------------------------------*/
 .review-header{
 	width:100%;
@@ -23,6 +26,9 @@ body{
 	font-size:18px;
 	color:#151515;
 	font-weight:bold;
+}
+.header-right{
+	color:#191919;
 }
 /*头部结束*/
 /*评论开始----------------------------------------*/
